@@ -9,6 +9,8 @@ from ติดต่อ.contact import contact_form
 import random
 import os
 from memory import get_prompt
+import Docx
+import PyPDF2
 
 API_KEY = "AIzaSyDQ3dBumcz0BtrV9a6Zj68pl8N4C9_8b74"
 ollama_url = "https://cockatoo-loyal-rarely.ngrok-free.app/v1/chat/completions"
